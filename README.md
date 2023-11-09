@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+Assignment: Online Recipe Book
+Objective:
+Design and implement an online recipe book where users can browse recipes, view detailed instructions, and add their own recipes.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Timeline: 1 Week
+Features:
 
-## Available Scripts
+1. Homepage:
+Display a list of all recipes with their names and a thumbnail image.
+Include a button/link to add a new recipe.
+Each recipe name should be clickable, leading to the detailed recipe page.
 
-In the project directory, you can run:
+3. Recipe Detail Page:
+Display the recipe name, image, ingredients list, and step-by-step instructions.
+Include a button/link to go back to the homepage.
+<br/>
+5. Add Recipe Page:
+A form to input the recipe name, upload an image, list ingredients, and provide step-by-step instructions.
+Provide a 'Submit' button to add the recipe to the recipe book.
+Technical Requirements:
 
-### `npm start`
+7. HTML:
+Use semantic tags (like <article>, <section>, <header>, <footer>) where appropriate.
+Use forms for adding recipes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+9. CSS:
+Design a responsive layout using Flexbox or Grid.
+Maintain a consistent color scheme and typography across the platform.
+Style the recipe list, individual recipe details, and the add recipe form distinctly.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+11. JavaScript:
+Use JavaScript to dynamically load and display recipes.
+Handle form submissions and validate input data before processing.
+Implement client-side routing to navigate between the homepage, individual recipes, and the add recipe page.
 
-### `npm test`
+13. React:
+Create reusable components for the recipe list item, full recipe details, and the add recipe form.
+Manage the state of the application using React's useState and/or useContext hooks.
+Use React Router for navigating between different views/pages.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+15. Bonus:
+Implement a search feature to find recipes by name or key ingredient.
+Add user ratings or reviews for each recipe.
+Use local storage or IndexedDB to persistently store recipes.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Notes for the intern:
+Prioritize functionality over design. However, if you have time, focus on refining the user interface.
+Make sure the code is clean, well-commented, and organized.
+Break the task into smaller chunks and tackle each feature step by step.
